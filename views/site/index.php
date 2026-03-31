@@ -33,8 +33,8 @@ $categoryTitles = [
     <div class="container">
         <div class="row gy-4 justify-content-center justify-content-lg-between">
             <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                <h1 data-aos="fade-up">Enjoy Fresh Food<br>Built With Yii2</h1>
-                <p data-aos="fade-up" data-aos-delay="100">This Yii2 version now follows the Laravel restaurant task with ordering, cart, checkout, booking, and admin management in one application.</p>
+                <h1 data-aos="fade-up">Enjoy Fresh Food<br>Made With Heart</h1>
+                <p data-aos="fade-up" data-aos-delay="100">From comforting Malaysian favorites to crowd-pleasing grilled specials, Yummy Red brings vibrant flavors, warm service, and easy table reservations together in one place.</p>
                 <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
                     <a href="#menu" class="btn-get-started">Order Food</a>
                     <a href="<?= Html::encode(Url::to(['/site/cart'])) ?>" class="btn-watch-video d-flex align-items-center"><i class="bi bi-cart3"></i><span>Open Cart</span></a>
@@ -50,7 +50,7 @@ $categoryTitles = [
 <section id="about" class="about section">
     <div class="container section-title" data-aos="fade-up">
         <h2>About Us</h2>
-        <p><span>Learn More</span> <span class="description-title">About This Project</span></p>
+        <p><span>Learn More</span> <span class="description-title">About Yummy Red</span></p>
     </div>
 
     <div class="container">
@@ -65,15 +65,15 @@ $categoryTitles = [
             <div class="col-lg-5" data-aos="fade-up" data-aos-delay="250">
                 <div class="content ps-0 ps-lg-5">
                     <p class="fst-italic">
-                        This Yii2 restaurant system mirrors the Laravel project so you can compare the same business flow in two PHP frameworks.
+                        Yummy Red is a lively city restaurant where comforting classics, smoky grilled dishes, and fresh house-made sauces come together for lunch, dinner, and casual celebrations.
                     </p>
                     <ul>
-                        <li><i class="bi bi-check-circle-fill"></i> <span>Restaurant landing page with the Yummy Red design.</span></li>
-                        <li><i class="bi bi-check-circle-fill"></i> <span>Database-backed menu and booking management in Yii2.</span></li>
-                        <li><i class="bi bi-check-circle-fill"></i> <span>Cart, checkout, and order confirmation flow added to match the Laravel version.</span></li>
+                        <li><i class="bi bi-check-circle-fill"></i> <span>Signature menu of local favorites, breakfast plates, lunch specials, and hearty dinner options.</span></li>
+                        <li><i class="bi bi-check-circle-fill"></i> <span>Comfortable dining spaces for quick weekday meals, family gatherings, and weekend catch-ups.</span></li>
+                        <li><i class="bi bi-check-circle-fill"></i> <span>Easy reservations and pre-ordering so your table is ready when you arrive.</span></li>
                     </ul>
                     <p>
-                        This helps you compare routing, views, forms, models, and database behavior between Laravel and Yii using the same restaurant use case.
+                        Whether you are planning a relaxed meal for two or a group dinner with friends, our kitchen focuses on fresh ingredients, generous portions, and warm hospitality from start to finish.
                     </p>
                     <div class="position-relative mt-4">
                         <img src="<?= Html::encode(Url::to('@web/yummy-red/img/about-2.jpg')) ?>" class="img-fluid" alt="Signature dish">
@@ -92,7 +92,7 @@ $categoryTitles = [
                 <div class="why-box">
                     <h3>Why Choose Yummy Red</h3>
                     <p>
-                        The Yii version now includes customer ordering flow, checkout simulation, booking records, and admin menu management so it is much closer to your Laravel project.
+                        We make dining simple: browse the menu, reserve your table, pre-plan your meal, and enjoy restaurant favorites prepared with consistency and care.
                     </p>
                     <div class="text-center">
                         <a href="<?= Html::encode(Url::to(['/site/checkout'])) ?>" class="more-btn"><span>Go to Checkout</span> <i class="bi bi-chevron-right"></i></a>
@@ -104,22 +104,22 @@ $categoryTitles = [
                     <div class="col-xl-4">
                         <div class="icon-box d-flex flex-column justify-content-center align-items-center">
                             <i class="bi bi-cart-check"></i>
-                            <h4>Cart Workflow</h4>
-                            <p>Customers can add dishes to a browser cart, review the order, and continue to checkout.</p>
+                            <h4>Easy Pre-Order</h4>
+                            <p>Pick your dishes ahead of time, review everything in one place, and arrive knowing your order is already planned.</p>
                         </div>
                     </div>
                     <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
                         <div class="icon-box d-flex flex-column justify-content-center align-items-center">
                             <i class="bi bi-card-list"></i>
-                            <h4>Menu Control</h4>
-                            <p>Create and update dishes from Yii admin pages while the home page shows categorized menu tabs.</p>
+                            <h4>Curated Menus</h4>
+                            <p>Explore neatly organized starters, breakfast picks, lunch plates, and dinner favorites crafted for every appetite.</p>
                         </div>
                     </div>
                     <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
                         <div class="icon-box d-flex flex-column justify-content-center align-items-center">
                             <i class="bi bi-calendar-heart"></i>
-                            <h4>Booking Flow</h4>
-                            <p>Checkout stores a confirmed booking record so the database reflects restaurant orders and reservations.</p>
+                            <h4>Table Reservations</h4>
+                            <p>Reserve your visit in minutes for date nights, team lunches, birthday dinners, and relaxed weekend meals.</p>
                         </div>
                     </div>
                 </div>
@@ -233,12 +233,12 @@ $categoryTitles = [
                     <div class="row gy-4">
                         <div class="col-lg-6">
                             <h3>Ready to take reservations</h3>
-                            <p>Create a reservation directly in your Yii app, then review or update it from the booking manager. Contact: <?= Html::encode(Yii::$app->restaurantInfo->reservationSummary) ?></p>
+                            <p>Reserve your table in advance or confirm your meal plan before you arrive. For private dining and larger groups, contact us at <?= Html::encode(Yii::$app->restaurantInfo->reservationSummary) ?></p>
                         </div>
                         <div class="col-lg-6">
                             <div class="d-grid gap-3">
-                                <a class="btn-get-started text-center" href="<?= Html::encode(Url::to(['/site/checkout'])) ?>">Checkout Now</a>
-                                <a class="btn-get-started text-center" href="<?= Html::encode(Url::to(['/booking/index'])) ?>">View Reservations</a>
+                                <a class="btn-get-started text-center" href="<?= Html::encode(Url::to(['/site/checkout'])) ?>">Reserve Your Table</a>
+                                <a class="btn-get-started text-center" href="<?= Html::encode(Url::to(['/booking/index'])) ?>">Manage Reservations</a>
                             </div>
                         </div>
                     </div>

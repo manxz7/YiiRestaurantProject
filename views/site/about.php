@@ -13,14 +13,14 @@ $this->title = 'About';
     </div>
     <div class="col-lg-6">
         <div class="content">
-            <h2>Restaurant-style frontend, Yii2 backend</h2>
-            <p class="lead">This project combines the Yummy Red template with your Yii2 CRUD application so the public site and admin flows feel like one product.</p>
+            <h2>Bold flavors, warm hospitality, memorable meals</h2>
+            <p class="lead">Yummy Red is inspired by the comfort of neighborhood dining and the energy of a modern city restaurant, serving familiar favorites with a vibrant signature touch.</p>
             <ul class="list-unstyled">
-                <li class="mb-3"><i class="bi bi-check-circle-fill text-danger me-2"></i>Dynamic menu showcase from your database</li>
-                <li class="mb-3"><i class="bi bi-check-circle-fill text-danger me-2"></i>Reservation pages wired into Yii routes</li>
-                <li class="mb-3"><i class="bi bi-check-circle-fill text-danger me-2"></i>Todo, menu, and booking management kept inside the same app</li>
+                <li class="mb-3"><i class="bi bi-check-circle-fill text-danger me-2"></i>Freshly prepared dishes made for casual lunches and long dinners</li>
+                <li class="mb-3"><i class="bi bi-check-circle-fill text-danger me-2"></i>Signature sauces, grilled specialties, and seasonal chef highlights</li>
+                <li class="mb-3"><i class="bi bi-check-circle-fill text-danger me-2"></i>Welcoming spaces for families, friends, and special occasions</li>
             </ul>
-            <a href="<?= Html::encode(Url::to(['/site/index', '#' => 'menu'])) ?>" class="btn-get-started">See Featured Menu</a>
+            <a href="<?= Html::encode(Url::to(['/site/index', '#' => 'menu'])) ?>" class="btn-get-started">Explore Our Menu</a>
         </div>
     </div>
 </div>

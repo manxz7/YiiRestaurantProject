@@ -17,8 +17,8 @@ $this->registerCssFile('https://fonts.googleapis.com/css2?family=Roboto:ital,wgh
 $this->registerCsrfMetaTags();
 $this->registerMetaTag(['charset' => Yii::$app->charset], 'charset');
 $this->registerMetaTag(['name' => 'viewport', 'content' => 'width=device-width, initial-scale=1.0']);
-$this->registerMetaTag(['name' => 'description', 'content' => $this->params['meta_description'] ?? 'Restaurant website powered by Yii2 and the Yummy Red template.']);
-$this->registerMetaTag(['name' => 'keywords', 'content' => $this->params['meta_keywords'] ?? 'restaurant, yii2, menu, booking']);
+$this->registerMetaTag(['name' => 'description', 'content' => $this->params['meta_description'] ?? 'Yummy Red is a modern Kuala Lumpur restaurant serving vibrant local favorites, signature grilled dishes, and warm table-side hospitality.']);
+$this->registerMetaTag(['name' => 'keywords', 'content' => $this->params['meta_keywords'] ?? 'restaurant, Kuala Lumpur, dining, menu, reservation, Malaysian food']);
 $this->registerLinkTag(['rel' => 'icon', 'href' => Url::to('@web/yummy-red/img/favicon.png')]);
 
 $homeUrl = Url::to(['/site/index']);
@@ -124,8 +124,8 @@ $bodyClass = $this->params['bodyClass'] ?? ($isHome ? 'index-page' : 'starter-pa
             </div>
 
             <div class="col-lg-3 col-md-6">
-                <h4>Built With Yii2</h4>
-                <p>Restaurant landing page and admin flows adapted from the Yummy Red template.</p>
+                <h4>Signature Dining</h4>
+                <p>Fresh ingredients, bold flavors, and a welcoming dining experience for everyday meals and special celebrations.</p>
             </div>
         </div>
     </div>
